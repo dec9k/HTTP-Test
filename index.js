@@ -6,4 +6,4 @@ const server = createServer((request, response) => {
     return response.end();
 });
 
-server.listen(8080);
+server.listen();
